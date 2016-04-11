@@ -1,0 +1,140 @@
+
+.container
+{
+    width:100%;
+    background-color:black;
+    color:white;
+    margin:0px;
+}
+
+ul li div, .navbar-brand
+{
+    transition:0.2s ease-in-out 0.1s;
+}
+
+ul li div
+{
+	padding:12px;
+}
+#page-home
+{
+    color:white;
+    background:url('/img/background.jpg');
+    background-size:cover;
+    text-align:center;
+    height:auto;
+    width:100%;
+    margin-left:-0px;
+}
+
+#profileimage
+{
+    width:20%;
+    margin-left: -30%;
+    padding:12px;
+}
+
+
+#profileimage,h1
+{
+    display:inline-block;
+    text-align:left;
+    font-size:3.0vw;
+}
+
+h2
+{
+    font-size: 2.0vw;
+}
+
+#portfolio
+{
+    text-align:center;
+    background-color
+    margin:0px;
+    padding-bottom: 5%;
+}
+portfolio h1
+{
+    padding-bottom: 5%;
+}
+
+#portfolio ul
+{
+    list-style-type: none;
+}
+#portfolio ul li
+{
+    display:inline-block;
+}
+
+#portfolio ul li a img
+{
+    width:12.0vw;
+    padding:5%;
+}
+
+#portfolio ul li a img:hover
+{
+    background-color:rgba(255,255,255,0.5);
+    border-radius:100%;
+    transition:0.5s ease-in-out 0.3s;
+}
+#portfolio ul li a img:not(hover)
+{
+    background-color:none;
+    transition:0.5s ease-in-out 0.3s;
+}
+#contact
+{
+    width:100%;
+    margin-left:-0px;
+    text-align: center;
+    background-image: url("/img/background.jpg");
+}
+form
+{
+    text-align: left;
+    background-color:rgba(0,0,0,0.6);
+    margin:auto;
+    width:25%;
+    padding:1%;
+    border-radius: 5%;
+}
+
+
+.form-control
+{
+    margin:auto;
+    width:100%;
+}
+#whoami
+{
+    text-align: left;
+    width:40%;
+    margin:auto;
+    padding-bottom:10%
+}
+#whoami h3
+{
+    padding-left:12px;
+    font-size:1.25vw;
+}
+#owninfo
+{
+    width:100%;
+    margin:auto;
+    background-color:black
+}
+#inline
+{
+    width:20%;
+    text-align: left;
+    margin:auto;
+}
+#backtotop
+{
+	position:fixed;
+	width:50px;
+	height:50px;
+}
